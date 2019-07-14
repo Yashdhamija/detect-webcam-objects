@@ -1,0 +1,9 @@
+This is a python script. 
+
+Running plotting.py from cmmand line would open the webcam and detect the moving objects from the frames. 
+Quitting the webcam window plots a motion graph highlighting times frames during which a movement was recorded.
+
+Working: It record the very first frame as a base frame and detects the moving objects in subsequent frames by comparing 
+it with the very first reference frame.
+
+NOTE - Might work on it later to include the screenshot feature as well; take screenshot of the frame with movement.
